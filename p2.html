@@ -1,0 +1,699 @@
+<link rel="stylesheet" herf="css/main.css">
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+   body{
+       
+       height: 100vh;
+       width: 100vh;
+       display: grid;
+justify-items: center;
+       align-items: center;
+       grid-template-columns: [a]1fr [b]1fr [c]1fr [d]1fr;
+       background-color: #000;
+   }
+   .containerbear{
+    background-color: rgb(149, 235, 12);
+     
+    width: 500px;
+    height: 500px;
+    position: relative;
+    
+
+}
+.containerowl{
+    background-color: rgb(219, 23, 160);
+    width: 500px;
+    height: 500px;
+    position: relative;
+    
+    
+
+}
+
+.containerfox{
+    background-color: rgb(23, 206, 219);
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+.containerwolf{
+    background-color: rgb(147, 11, 226);
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+.earl{
+    padding: 14em;
+position: relative;
+
+clip-path: polygon(25% 7%, 31% 13%, 50% 13%, 15% 26%, 13% 12%);
+background-color:#592c08;
+
+   
+    
+}
+.earr{
+    padding: 14em;
+position: relative;
+bottom: 447px;
+clip-path: polygon(73% 7%, 85% 13%, 81% 26%, 49% 13%, 64% 12%);
+
+background-color: #592c08;
+}
+.facel{
+    padding: 14em;
+position: relative;
+background-color: #663302;
+clip-path: polygon(15% 26%, 48% 13%, 48% 38%, 25% 39%, 37% 47%, 27% 65%, 33% 81%, 12% 64%);
+bottom:897px;
+}
+.facer{
+    padding: 14em;
+position: relative;
+background-color: #713900;
+clip-path: polygon(48% 38%, 48% 13%, 81% 25%, 87% 64%, 64% 80%, 70% 65%, 60% 47%, 73% 38%);
+bottom:1345px;
+}
+.eyel{
+    padding: 14em;
+position: relative;
+background-color: rgb(69,33,1);
+clip-path: polygon(43% 37%, 23% 38%, 37% 47%);
+bottom:1788px;
+}
+.eyer{
+    padding: 14em;
+position: relative;
+background-color: rgb(69,33,1);
+clip-path: polygon(73% 38%, 55% 38%, 60% 47%);
+bottom:2241px;
+}
+.nose1{
+    padding: 14em;
+position: relative;
+background-color: #ffdeab;
+clip-path: polygon(48% 38%, 34% 65%, 63% 65%);
+bottom:2688px;
+}
+.nose2{
+    padding: 14em;
+position: relative;
+background-color: #f6c988;
+clip-path: polygon(42% 38%, 48% 38%, 34% 65%, 27% 65%);
+
+bottom:3137px;
+}
+.nose3{
+    padding: 14em;
+position: relative;
+background-color: #f6c988;
+clip-path: polygon(48% 38%, 55% 38%, 70% 65%, 63% 65%);
+
+bottom:3585px;
+}
+.nose4{
+    padding: 14em;
+position: relative;
+background-color: black;
+clip-path: polygon(34% 65%, 48% 77%, 63% 65%);
+
+bottom:4032px;
+}
+.facebottom{
+    padding: 14em;
+position: relative;
+background-color: #f6c988;
+clip-path: polygon(48% 77%, 64% 64%, 70% 65%, 64% 80%, 49% 95%, 32% 80%, 27% 65%, 33% 64%);
+bottom:4480px;
+}
+.chinr{
+    padding: 14em;
+position: relative;
+background-color: #643302;
+
+clip-path: polygon(81% 30%, 92% 69%, 49% 95%, 63% 81%, 87% 64%);
+bottom:4930px;
+
+}
+#chin1{
+    padding: 14em;
+position: relative;
+background-color: #582d03;
+clip-path: polygon(13% 65%, 32% 80%, 49% 95%, 6% 70%, 15% 30%);
+bottom:5378px;
+}
+.onose{
+    padding: 14em;
+position: relative;
+background-color: #000000;
+clip-path: polygon(41% 61%, 50% 56%, 59% 61%, 49% 76%);
+
+}
+.obeakr{
+    padding: 14em;
+position: relative;
+background-color: #ffffff;
+clip-path: polygon(59% 61%, 68% 66%, 73% 74%, 50% 93%, 49% 76%);
+bottom: 448px;
+}
+.obeakl{
+    padding: 14em;
+position: relative;
+background-color: #b2b2b2;
+clip-path: polygon(30% 66%, 41% 61%, 49% 76%, 50% 93%, 27% 75%);
+bottom: 895px;
+}
+.oeyelid{
+    padding: 14em;
+position: relative;
+background-color: #d7dade;
+clip-path: polygon(80% 39%, 86% 51%, 73% 74%, 68% 66%, 59% 61%);
+bottom: 1344px;
+}
+.oeye1r{
+    padding: 14em;
+position: relative;
+background-color: #000;
+clip-path: circle(9.5% at 70% 52%);
+bottom: 1784px;}
+
+.oeye2r{
+    padding: 14em;
+position: relative;
+background-color: #ee9909;
+clip-path: circle(8.2% at 70% 52%);
+bottom: 2232px;
+}
+.oeye3r{
+    padding: 14em;
+position: relative;
+background-color: #000;
+clip-path: circle(5.4% at 70% 52%);
+bottom: 2679px;
+}
+.oeyelidl{
+    padding: 14em;
+position: relative;
+background-color: #d7dade;
+clip-path: polygon(19% 37%, 41% 61%, 31% 66%, 27% 75%, 14% 53%);
+
+bottom: 3134px;
+}
+.oeye1l{
+    padding: 14em;
+position: relative;
+background-color: #000;
+clip-path: circle(9.5% at 31% 52%);
+bottom: 3571px;
+}
+.oeye2l{
+    padding: 14em;
+position: relative;
+background-color: #ee9909;
+clip-path: circle(8.2% at 31% 52%);
+bottom: 4019px;
+}
+.oeye3l{
+    padding: 14em;
+position: relative;
+background-color: #000;
+clip-path: circle(5.4% at 31% 52%);
+bottom: 4468px;
+}
+.oeyebrowr{
+    padding: 14em;
+position: relative;
+background-color: #034d68;
+clip-path: polygon(71% 37%, 91% 19%, 90% 29%, 59% 61%);
+
+bottom: 4929px;
+
+}
+.oheadr{
+    padding: 14em;
+position: relative;
+background-color: #09a4dd;
+clip-path: polygon(82% 23%, 68% 28%, 71% 37%, 59% 61%, 50% 56%, 50% 13%, 65% 14%);
+
+bottom: 5377px;
+}
+.oearr{
+    padding: 14em;
+position: relative;
+background-color: #057399;
+clip-path: polygon(91% 19%, 68% 28%, 71% 37%);
+bottom: 5825px;
+}
+.oheadl{
+    padding: 14em;
+position: relative;
+background-color:#06719b ;
+clip-path: polygon(35% 14%, 50% 13%, 50% 56%, 41% 61%, 29% 37%, 33% 28%, 19% 23%);
+
+bottom: 6273px;
+}
+.oeyebrowl{
+    padding: 14em;
+position: relative;
+background-color: #034d68;
+clip-path: polygon(9% 19%, 29% 37%, 41% 61%, 11% 29%);
+
+bottom: 6721px;
+
+}
+.oearl{
+    padding: 14em;
+position: relative;
+background-color: #07a5df;
+clip-path: polygon(9% 19%, 29% 37%, 33% 28%);
+bottom: 7169px;
+}
+.ochinr{
+    padding: 14em;
+position: relative;
+background-color:#057296;
+clip-path: polygon(74% 72%, 50% 93%, 84% 79%);
+bottom: 7615px;
+}
+.ochinr1{
+    padding: 14em;
+position: relative;
+background-color:#129ee2;
+clip-path: polygon(80% 39%, 87% 31.5%, 91% 59%, 84% 79%, 74% 72%, 86% 51%);
+bottom: 8063px;
+}
+.ochinl{
+    padding: 14em;
+position: relative;
+background-color:#057296;
+clip-path: polygon(16% 79%, 50% 93%, 25% 72%);
+bottom: 8510px;
+}
+.ochinl1{
+    padding: 14em;
+position: relative;
+background-color:#129ee2;
+clip-path: polygon(13% 30%, 19% 37%, 14% 53%, 25% 72%, 16% 79%, 9% 58%);
+bottom: 8958px;
+}
+.beakcenter{
+    padding: 14em;
+position: relative;
+background-color:#414141;
+clip-path: polygon(45% 62%, 50% 58%, 55% 62%, 50% 60%);
+bottom: 9408px;
+}
+.ftounge{
+    padding: 15em;
+position: relative;
+background-color:#af412d;
+clip-path: polygon(47% 87%, 50% 94%, 53% 87%);
+
+}
+.ftounge{
+    padding: 15em;
+position: relative;
+background-color:#de3d3a;
+clip-path: polygon(47% 87%, 50% 94%, 53% 87%);
+
+}.fnose{
+    padding: 15em;
+position: relative;
+background-color:black;
+clip-path: polygon(50% 78%, 43% 87%, 57% 87%);
+bottom: 480px;
+}
+.fnoser{
+    padding: 15em;
+position: relative;
+background-color:#f5ca8c;
+clip-path: polygon(80% 45%, 50% 78%, 57% 87%);
+bottom: 960px;
+}
+.fnosel{
+    padding: 15em;
+position: relative;
+background-color:#f5ca8c;
+clip-path: polygon(20% 45%, 43% 87%, 50% 78%);
+bottom: 1440px; 
+}
+.fnoser1{
+    padding: 15em;
+position: relative;
+background-color:#b53625;
+clip-path: polygon(50% 54%, 50% 78%, 66% 61%);
+bottom: 1920px; 
+}
+.fnosel1{
+    padding: 15em;
+position: relative;
+background-color:#a52f23;
+clip-path: polygon(50% 54%, 50% 78%, 34% 61%);
+bottom: 2400px; 
+}
+.fnoser2{
+    padding: 15em;
+position: relative;
+background-color:#ca3f28;
+clip-path: polygon(80% 45%, 50% 54%, 66% 61%);
+bottom: 2880px; 
+}
+.fnosel2{
+    padding: 15em;
+position: relative;
+background-color:#ca4027;
+clip-path: polygon(20% 45%, 34% 61%, 50% 54%);
+bottom: 3360px; 
+}
+.feyer{
+    padding: 15em;
+position: relative;
+background-color:#d94529;
+clip-path: polygon(50% 19%, 55% 19%, 79% 31%, 80% 45%, 50% 54%);
+bottom: 3840px;
+}
+.feyel{
+    padding: 15em;
+position: relative;
+background-color:#b53625;
+clip-path: polygon(45% 19%, 50% 19%, 50% 54%, 20% 45%, 24% 29%);
+bottom: 4320px;
+}
+.fearr1{
+    padding: 15em;
+position: relative;
+background-color:#b73621;
+clip-path: polygon(78% 6%, 55% 19%, 68% 26%);
+bottom: 4800px;
+}
+.fearr2{
+    padding: 15em;
+position: relative;
+background-color:#d94527;
+clip-path: polygon(76% 10%, 71% 19%, 79% 31%);
+bottom: 5280px;
+}
+.fearr3{
+    padding: 15em;
+position: relative;
+background-color:#771314;
+clip-path: polygon(71% 19%, 68% 26%, 79% 31%);
+bottom: 5760px;
+}
+.fearl1{
+    padding: 15em;
+position: relative;
+background-color:#a82d25;
+clip-path: polygon(22% 6%, 32% 26%, 45% 19%);
+bottom: 6240px;
+}
+.fearl2{
+    padding: 15em;
+position: relative;
+background-color:#b33725;
+clip-path: polygon(24% 10%, 24% 29%, 29% 19%);
+bottom: 6720px;
+}
+.fearl3{
+    padding: 15em;
+position: relative;
+background-color:#701616;
+clip-path: polygon(32% 26%, 24% 29%, 29% 19%);
+bottom: 7200px;
+}
+.fcheekr1{
+    padding: 15em;
+position: relative;
+background-color:#f7ca88;
+clip-path: polygon(79% 31%, 80% 45%, 93% 51%);
+bottom: 7680px;
+}
+.fcheekr2{
+    padding: 15em;
+position: relative;
+background-color:#ffdeab;
+clip-path: polygon(93% 51%, 80% 45%, 59% 83%);
+bottom: 8160px;
+}
+.fcheekl1{
+    padding: 15em;
+position: relative;
+background-color:#f8ca84;
+clip-path: polygon(24% 29%, 7% 51%, 20% 45%);
+bottom: 8640px;
+}
+.fcheekl2{
+    padding: 15em;
+position: relative;
+background-color:#ffdeab;
+clip-path: polygon(20% 45%, 7% 51%, 41% 83%);
+bottom: 9120px;
+}
+.wnose{
+    padding: 15em;
+position: relative;
+background-color:black;
+clip-path: polygon(35% 60%, 50% 73%, 65% 60%);}
+.wnosetop{
+    padding: 15em;
+position: relative;
+background-color:#c4c4c4;
+clip-path: polygon(50% 43%, 35% 60%, 65% 60%);
+bottom: 480px;
+
+}
+.wchin{
+    padding: 15em;
+position: relative;
+background-color:#b3b3b3;
+clip-path: polygon(50% 73%, 71% 80%, 63% 92%, 37% 92%, 29% 80%);
+bottom: 960px;
+
+}
+.wmouthr{
+    padding: 15em;
+position: relative;
+background-color:#c4c4c4;
+clip-path: polygon(50% 73%, 65% 60%, 80% 66%, 71% 80%);
+bottom: 1440px;
+}
+.wmouthl{
+    padding: 15em;
+position: relative;
+background-color:#c4c4c4;
+clip-path: polygon(22% 66%, 35% 60%, 50% 73%, 29% 80%);
+bottom: 1920px;
+}
+.wnoser{
+    padding: 15em;
+position: relative;
+background-color:#b3b3b3;
+clip-path: polygon(50% 43%, 65% 60%, 80% 66%);
+bottom: 2400px;
+}
+.wnosel{
+    padding: 15em;
+position: relative;
+background-color:#b3b3b3;
+clip-path: polygon(50% 43%, 22% 66%, 35% 60%);
+bottom: 2880px;
+}
+.weyer{
+    padding: 15em;
+position: relative;
+background-color:#494949;
+clip-path: polygon(50% 43%, 63% 53%, 82% 42%);
+bottom: 3360px;
+}
+.weyel{
+    padding: 15em;
+position: relative;
+background-color:#494949;
+clip-path: polygon(50% 43%, 38% 53%, 18% 42%);
+bottom: 3840px;
+}
+.weyer1{
+    padding: 15em;
+position: relative;
+background-color:#888888;
+clip-path: polygon(82% 42%, 63% 53%, 80% 66%);
+bottom: 4320px;
+}
+.weyel1{
+    padding: 15em;
+position: relative;
+background-color:#888888;
+clip-path: polygon(18% 42%, 22% 66%, 38% 53%);
+bottom: 4800px;
+}
+.wheadr{
+    padding: 15em;
+position: relative;
+background-color:#888888;
+clip-path: polygon(50% 19%, 55% 19%, 84% 33%, 92% 57%, 82% 42%, 50% 43%);
+bottom: 5280px;
+}
+.wheadl{
+    padding: 15em;
+position: relative;
+background-color:#717171;
+clip-path: polygon(45% 19%, 50% 19%, 50% 43%, 18% 42%, 8% 57%, 16% 33%);
+bottom: 5760px;
+}
+.wcheekr{
+    padding: 15em;
+position: relative;
+background-color:#b3b3b3;
+clip-path: polygon(82% 42%, 98% 66%, 71% 80%, 80% 66%);
+bottom: 6240px;
+}
+.wcheekl{
+    padding: 15em;
+position: relative;
+background-color:#b3b3b3;
+clip-path: polygon(18% 42%, 22% 66%, 29% 80%, 2% 66%);
+bottom: 6720px;
+}
+.wearr1{
+    padding: 15em;
+position: relative;
+background-color:#b3b3b3;
+clip-path: polygon(80% 3%, 55% 19%, 70% 27%);
+bottom: 7200px;
+}
+.wearr2{
+    padding: 15em;
+position: relative;
+background-color:#858787;
+clip-path: polygon(80% 3%, 77% 10%, 84% 33%);
+bottom: 7680px;
+}
+.wearr3{
+    padding: 15em;
+position: relative;
+background-color:#494949;
+clip-path: polygon(77% 10%, 70% 27%, 84% 33%);
+bottom: 8160px;
+}
+.wearl1{
+    padding: 15em;
+position: relative;
+background-color:#b3b3b3;
+clip-path: polygon(20% 3%, 31% 26%, 45% 19%);
+bottom: 8640px;
+}
+.wearl2{
+    padding: 15em;
+position: relative;
+background-color:#858787;
+clip-path: polygon(20% 3%, 23% 10%, 16% 33%);
+bottom: 9120px;
+}
+.wearl3{
+    padding: 15em;
+position: relative;
+background-color:#494949;
+clip-path: polygon(23% 10%, 31% 26%, 16% 33%);
+bottom: 9600px;
+}
+</style>
+<head>
+
+</head>
+<body>
+<div class="containerbear">
+<div class="earl">
+
+</div>
+<div class="earr"></div>
+<div class="facel"></div>
+<div class="facer"></div><div class="eyel"></div>
+<div class="eyer"></div>
+<div class="nose1"></div>
+<div class="nose2"></div>
+<div class="nose3"></div>
+<div class="nose4"></div>
+<div class="facebottom"></div>
+<div class="chinr"></div>
+<div id="chin1"></div>
+</div>
+<div class="containerowl">
+    <div class="onose"></div>
+    <div class="obeakr"></div>
+    <div class="obeakl"></div>
+    <div class="oeyelid"></div>
+    <div class="oeye1r"></div>
+    <div class="oeye2r"></div>
+    <div class="oeye3r"></div>
+    <div class="oeyelidl"></div>
+    <div class="oeye1l"></div>
+    <div class="oeye2l"></div>
+    <div class="oeye3l"></div>
+    <div class="oeyebrowr"></div>
+    <div class="oheadr"></div>
+    <div class="oearr"></div>
+    <div class="oheadl"></div>
+    <div class="oeyebrowl"></div>
+    <div class="oearl"></div>
+    <div class="ochinr"></div>
+    <div class="ochinr1"></div>
+    <div class="ochinl"></div>
+    <div class="ochinl1"></div>
+    <div class="beakcenter"></div>
+
+
+
+</div>
+<div class="containerfox">
+    <div class="ftounge"></div>
+    <div class="fnose"></div>
+    <div class="fnoser"></div>
+    <div class="fnosel"></div>
+    <div class="fnoser1"></div>
+    <div class="fnosel1"></div>
+    <div class="fnoser2"></div>
+    <div class="fnosel2"></div>
+    <div class="feyer"></div>
+    <div class="feyel"></div>
+    <div class="fearr1"></div>
+    <div class="fearr2"></div>
+    <div class="fearr3"></div>
+    <div class="fearl1"></div>
+    <div class="fearl2"></div>
+    <div class="fearl3"></div>
+    <div class="fcheekr1"></div>
+    <div class="fcheekr2"></div>
+    <div class="fcheekl1"></div>
+    <div class="fcheekl2"></div>
+
+</div>
+<div class="containerwolf">
+    <div class="wnose"></div>
+    <div class="wnosetop"></div>
+    <div class="wchin"></div>
+    <div class="wmouthr"></div>
+    <div class="wmouthl"></div>
+    <div class="wnoser"></div>
+    <div class="wnosel"></div>
+    <div class="weyer"></div>
+    <div class="weyel"></div>
+    <div class="weyer1"></div>
+    <div class="weyel1"></div>
+    <div class="wheadr"></div>
+    <div class="wheadl"></div>
+    <div class="wcheekr"></div>
+    <div class="wcheekl"></div>
+    <div class="wearr1"></div>
+    <div class="wearr2"></div>
+    <div class="wearr3"></div>
+    <div class="wearl1"></div>
+    <div class="wearl2"></div>
+    <div class="wearl3"></div>
+
+
+</div>
+</body>
